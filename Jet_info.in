@@ -45,6 +45,8 @@ BJMatchingDeltaR 0.4
 
 Apply2017EEnoiseVeto false
 
+DiscrByDphi1 true
+Dphi1CutMet 0.7 9999.5
 ########################################
 	        Jet2
 #######################################
@@ -78,6 +80,8 @@ BJMatchingDeltaR 0.4
 
 Apply2017EEnoiseVeto false
 
+DiscrByDphi1 true
+Dphi1CutMet 0.7 9999.5
 ####################################
           CentralJet
 ###################################
@@ -104,6 +108,8 @@ Tau2MatchingDeltaR 0.4
 
 Apply2017EEnoiseVeto false
 
+DiscrByDphi1 true
+Dphi1CutMet 0.7 9999.5
 ####################################
 	 FirstLeadingJet
 ###################################
@@ -133,7 +139,7 @@ Tau2MatchingDeltaR 0.4
 
 Apply2017EEnoiseVeto false
 
-DiscrByDphi1 false 
+DiscrByDphi1 true 
 Dphi1CutMet 0.7 9999.5
 
 ####################################
@@ -149,22 +155,24 @@ ApplyLooseID 0
 ApplyTightID 1
 
 RemoveOverlapWithMuon1s 1
-RemoveOverlapWithMuon2s 0
+RemoveOverlapWithMuon2s 1
 Muon1MatchingDeltaR 0.4
-Muon2MatchingDeltaR 0.3
+Muon2MatchingDeltaR 0.4
 
-RemoveOverlapWithElectron1s 0
-RemoveOverlapWithElectron2s 0
-Electron1MatchingDeltaR 0.3
-Electron2MatchingDeltaR 0.3
+RemoveOverlapWithElectron1s 1
+RemoveOverlapWithElectron2s 1
+Electron1MatchingDeltaR 0.4
+Electron2MatchingDeltaR 0.4
 
-RemoveOverlapWithTau1s 0
-RemoveOverlapWithTau2s 0
-Tau1MatchingDeltaR 0.3
-Tau2MatchingDeltaR 0.3
+RemoveOverlapWithTau1s 1
+RemoveOverlapWithTau2s 1
+Tau1MatchingDeltaR 0.4
+Tau2MatchingDeltaR 0.4
 
 Apply2017EEnoiseVeto false
 
+DiscrByDphi1 true
+Dphi1CutMet 0.7 9999.5
 ###################################
     	     BJet
 ##################################
